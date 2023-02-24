@@ -5,7 +5,17 @@
 	● Part2 :calibrating two cameras using a chessboard pattern forming stereovision.
 	● parts 3: performing sift detection and matching between two of our captured images and
 	applying epipolar constraint to increase the accuracy of the matches
-	
+# Part1 
+	We calculated the projection matrix through the given 2d and 3d correspondences by solving
+	System of equations in the form AU=B using least square where U is the projection matrix then
+	we calculated the camera center through the following steps :
+		● calculate_projection_matrix
+		1. constructing the matrix A from the given 2d and 3d points
+		2. Constructing matrix B by reshaping the given 2d points
+		3. Solving using the linear technique where U=(A.T*A)^-1 *A.T*B
+		● compute_camera_center(M)
+		1. M=[Q|m4]
+		2. c=Q^-1*m4
 # Results of part1
 ![p4](https://user-images.githubusercontent.com/49596777/221073306-0cfbfcb0-b950-46c3-8ac6-5379344975fd.PNG)
 ![p42](https://user-images.githubusercontent.com/49596777/221073310-368f6788-93a1-4396-80f4-b06011f5f72d.PNG)
