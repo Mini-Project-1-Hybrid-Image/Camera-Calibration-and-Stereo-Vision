@@ -45,6 +45,26 @@
                 Although the total residual is little high for both cameras but the reprojection error is good
 		(in subpixels accuracy) ,also the visualization is not bad
        
+     
+ # Part3:
+	In this part we calibrated our own cameras as done before. Then we captured images
+	of a selected object.
+	● Then we used sift_create.detect and compute to calculate keypoints and
+	descriptors.
+	● We used flannbasedmatcher then we applied knnmatch to find the matches
+	● After that we applied the ratio test to detect the uncertainties
+	● We found x and y coordinates, then we improve the matches by calculating the
+	epipolar constraint=0 but we find a threshold between 0.1 and -0.1
+	● After that we used the image points after applying the epipolar constraints in
+	triangulatepoints, and we plot the point in a 3d view.
+	● We compared the length after the reconstruction with the length between the
+	main corners in the object, and we found that they are near each in some
+	lengths.
+	At last, we recommend using a better camera than ours to help better with the
+	matching and the calibration.
+![p3](https://user-images.githubusercontent.com/49596777/221074279-e1f1b202-0c4d-4a7c-8f43-e6efdac68c69.PNG)
+![p32](https://user-images.githubusercontent.com/49596777/221074282-2fdc78c6-814c-4d2b-855a-f1e0aba65fa1.PNG)
+
 	
 	
 	
