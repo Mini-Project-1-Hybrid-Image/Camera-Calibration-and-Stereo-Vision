@@ -27,12 +27,12 @@
 	8. Getting the projection matrix using by multiplying the camera matrix
 	with RT
 	
-Part 2 results
+# Part 2 results
 	● First camera :
 		1. Reprojection Error: 0.5689131935306923
 		2. The total residual is: 133.69416547523434
 		
-		![p2](https://user-images.githubusercontent.com/49596777/221073533-d8d11870-b5fd-42b0-9c16-8478a09aaeeb.PNG)
+	![p2](https://user-images.githubusercontent.com/49596777/221073533-d8d11870-b5fd-42b0-9c16-8478a09aaeeb.PNG)
 	
 	● Second camera :
 		1. Reprojection Error: 0.664144274461620
