@@ -32,15 +32,16 @@
 		1. Reprojection Error: 0.5689131935306923
 		2. The total residual is: 133.69416547523434
 		
-	![p2](https://user-images.githubusercontent.com/49596777/221073533-d8d11870-b5fd-42b0-9c16-8478a09aaeeb.PNG)
-	
+![p2](https://user-images.githubusercontent.com/49596777/221073915-8a157dcb-f6ee-4296-a838-b9419a50929a.PNG)
+
 	● Second camera :
 		1. Reprojection Error: 0.664144274461620
 		2. The total residual is: 98.63853631015635
 	
-	![p22](https://user-images.githubusercontent.com/49596777/221073653-6c3972a9-0025-4dfb-b8ee-1d1aaeb7493f.PNG)
+![p22](https://user-images.githubusercontent.com/49596777/221073926-501a51e4-5937-41a2-8137-0b0236fef795.PNG)
+
 	
-        ●Comments 
+        ● Comments 
                 Although the total residual is little high for both cameras but the reprojection error is good
 		(in subpixels accuracy) ,also the visualization is not bad
        
